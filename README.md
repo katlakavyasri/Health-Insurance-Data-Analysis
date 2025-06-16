@@ -25,67 +25,8 @@ This project provides an end-to-end data analysis solution for a health insuranc
 * **Git & GitHub:** For version control and collaborative project hosting.
 
 ## Project Structure
+The repository is organized into logical folders to ensure clarity and maintainability:
 ```
-<<<<<<< HEAD
-# --- Create Main Project Subdirectories ---
-
-# Create the 'data' directory for raw and processed CSV files
-mkdir data
-
-# Create the 'scripts' directory for your Python scripts
-mkdir scripts
-
-# Create the 'powerbi' directory for your Power BI report and related files
-mkdir powerbi
-
-# Create the 'plots' directory for your generated image files
-mkdir plots
-
-# --- File Placement (Manual Steps) ---
-
-echo "--- Now, manually move your files into these newly created directories: ---"
-
-echo ""
-echo "Move your original and cleaned CSVs into the 'data' folder:"
-echo "    - Insurance_dataset.csv"
-echo "    - Insurance_dataset_cleaned_processed.csv"
-
-echo ""
-echo "Move your Python scripts into the 'scripts' folder:"
-echo "    - process_insurance_data.py"
-echo "    - etl_script.py"
-echo "    - insurance_eda.py"
-
-echo ""
-echo "Move your Power BI files into the 'powerbi' folder:"
-echo "    - Health Insurance Data Deep Dive.pbix"
-echo "    - (Optional) health_insurance_db.sqbpro"
-
-echo ""
-echo "Move your generated plot images into the 'plots' folder:"
-echo "    - categorical_distributions.png"
-echo "    - insurance_cost_by_gender.png"
-echo "    - insurance_cost_by_region.png"
-echo "    - insurance_cost_by_smoker.png"
-echo "    - (Any other plot images)"
-echo "    - (Any Power BI dashboard screenshots, e.g., powerbi_overview.png)"
-
-echo ""
-echo "Ensure these main files are directly in your Health-Insurance-Data-Analysis/ root directory:"
-echo "    - .gitignore"
-echo "    - README.md"
-echo "    - health_insurance_db.sqlite"
-
-echo ""
-echo "Once you've moved the files, remember to stage, commit, and push these changes to GitHub!"
-echo "    git add ."
-echo "    git commit -m \"Organize project files into structured directories\""
-echo "    git push origin main"
-
-```
-
-
-=======
 Health-Insurance-Data-Analysis/
 ├── .gitignore                                     # Specifies intentionally untracked files to ignore
 ├── README.md                                      # Project overview and documentation
@@ -111,7 +52,6 @@ Health-Insurance-Data-Analysis/
 │   ├── insurance_cost_by_smoker.png               # Example plot from EDA
 │   └── powerbi.png                                # Screenshot of Power BI dashboard
 ```
->>>>>>> 12f6d7d9b800e17ff6a670ad40be3db70c0cb8e8
 To explore or replicate this project, follow these steps:
 
 1.  **Clone the Repository:**
@@ -164,8 +104,4 @@ Interactive filters (slicers) for `Region`, `Age`, `Gender`, `Smoker Status`, an
 
 ---
 
-<<<<<<< HEAD
 **Author:** Kavya Sri Katla
-=======
-**Author:** Kavya Sri Katla
->>>>>>> 12f6d7d9b800e17ff6a670ad40be3db70c0cb8e8
