@@ -1,4 +1,3 @@
-# Health-Insurance-Data-Analysis
 # Health Insurance Data Deep Dive
 
 ## Project Overview
@@ -27,6 +26,7 @@ This project provides an end-to-end data analysis solution for a health insuranc
 
 ## Project Structure
 ```
+<<<<<<< HEAD
 # --- Create Main Project Subdirectories ---
 
 # Create the 'data' directory for raw and processed CSV files
@@ -85,6 +85,33 @@ echo "    git push origin main"
 ```
 
 
+=======
+Health-Insurance-Data-Analysis/
+├── .gitignore                                     # Specifies intentionally untracked files to ignore
+├── README.md                                      # Project overview and documentation
+├── health_insurance_db.sqlite                     # The final SQLite database file
+
+├── data/
+│   ├── Insurance_dataset.csv                      # Original raw dataset
+│   └── Insurance_dataset_cleaned_processed.csv    # CSV after initial Python cleaning
+
+├── scripts/
+│   ├── process_insurance_data.py                  # Initial script for data cleaning and saving to CSV
+│   ├── etl_script.py                              # Script for loading cleaned data into SQLite
+│   └── insurance_eda.py                           # Script for Exploratory Data Analysis and plot generation
+
+├── powerbi/
+│   ├── Health Insurance Data Deep Dive.pbix       # The Power BI Desktop report file
+│   └── health_insurance_db.sqbpro                 # (Optional) DB Browser for SQLite project file
+
+├── plots/
+│   ├── categorical_distributions.png              # Example plot from EDA
+│   ├── insurance_cost_by_gender.png               # Example plot from EDA
+│   ├── insurance_cost_by_region.png               # Example plot from EDA
+│   ├── insurance_cost_by_smoker.png               # Example plot from EDA
+│   └── powerbi.png                                # Screenshot of Power BI dashboard
+```
+>>>>>>> 12f6d7d9b800e17ff6a670ad40be3db70c0cb8e8
 To explore or replicate this project, follow these steps:
 
 1.  **Clone the Repository:**
@@ -137,4 +164,8 @@ Interactive filters (slicers) for `Region`, `Age`, `Gender`, `Smoker Status`, an
 
 ---
 
+<<<<<<< HEAD
 **Author:** Kavya Sri Katla
+=======
+**Author:** Kavya Sri Katla
+>>>>>>> 12f6d7d9b800e17ff6a670ad40be3db70c0cb8e8
